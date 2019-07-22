@@ -1,7 +1,7 @@
-package spark.dao
+package webspark.dao
 
-import spark.domain.{CourseClickCount, CourseSearchClickCount}
-import spark.utils.HBaseUtils
+import webspark.domain.{CourseClickCount, CourseSearchClickCount}
+import webspark.utils.HBaseUtils
 import org.apache.hadoop.hbase.client.Get
 import org.apache.hadoop.hbase.util.Bytes
 

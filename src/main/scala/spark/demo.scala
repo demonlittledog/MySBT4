@@ -1,5 +1,6 @@
+package spark
+
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 object demo {
   def main(args: Array[String]): Unit = {

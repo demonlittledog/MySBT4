@@ -1,4 +1,4 @@
-package spark.domain
+package webspark.domain
 
 /**
   * 清洗后的日志信息

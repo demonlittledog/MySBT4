@@ -1,11 +1,11 @@
-package spark
+package webspark
 
-import spark.domain.{ClickLog, CourseClickCount, CourseSearchClickCount}
-import spark.utils.DateUtils
+import webspark.domain.{ClickLog, CourseClickCount, CourseSearchClickCount}
+import webspark.utils.DateUtils
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.kafka.KafkaUtils
 import org.apache.spark.streaming.{Seconds, StreamingContext}
-import spark.dao.{CourseClickCountDAO, CourseSearchClickCountDAO}
+import webspark.dao.{CourseClickCountDAO, CourseSearchClickCountDAO}
 
 import scala.collection.mutable.ListBuffer
 

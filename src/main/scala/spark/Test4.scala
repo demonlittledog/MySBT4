@@ -1,3 +1,5 @@
+package spark
+
 
 object Test4 {
   def main(args: Array[String]): Unit = {

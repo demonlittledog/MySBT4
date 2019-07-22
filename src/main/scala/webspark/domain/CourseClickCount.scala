@@ -1,4 +1,4 @@
-package spark.domain
+package webspark.domain
 
 /**
   * 实战课程点击数实体类

@@ -1,7 +1,7 @@
+package streaming
+
 import org.apache.spark._
-import org.apache.spark.streaming._
-import org.apache.spark.streaming.StreamingContext
-import org.apache.spark.streaming.StreamingContext._
+import org.apache.spark.streaming.{StreamingContext, _}
 object SparkStreaming {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setMaster("local[2]").setAppName("car_count")

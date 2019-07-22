@@ -1,3 +1,5 @@
+package spark
+
 import org.apache.spark.{SparkConf, SparkContext}
 object MyScalaSparkDemo {
   def main(args: Array[String]): Unit = {

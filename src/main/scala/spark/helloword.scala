@@ -1,9 +1,11 @@
+package spark
+
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   * Created by Jan on 2016/12/19.
   */
-object Helloworld {
+object helloworld {
 //  def rdc(x:(String,Int),y:(String,Int)):(String,Int) ={
 //    if(x._1.equals(y._1)){
 //      (x._1,x._2+y._2)
